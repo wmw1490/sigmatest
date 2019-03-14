@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "341cf21a-6a53-4b22-bf9b-e1edc4f2472c": {
+        "id": "341cf21a-6a53-4b22-bf9b-e1edc4f2472c",
+        "parent": null,
+        "name": "sigmatest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "0580ff1f-0770-48bd-861f-f3152155a0d8"
+        ],
+        "isRemovable": false,
+        "filePath": "sigmatest"
+      },
+      "0580ff1f-0770-48bd-861f-f3152155a0d8": {
+        "id": "0580ff1f-0770-48bd-861f-f3152155a0d8",
+        "parent": "341cf21a-6a53-4b22-bf9b-e1edc4f2472c",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sigmatest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "341cf21a-6a53-4b22-bf9b-e1edc4f2472c",
+    "openFiles": [
+      "0580ff1f-0770-48bd-861f-f3152155a0d8"
+    ],
+    "currentFileId": "0580ff1f-0770-48bd-861f-f3152155a0d8",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sigmatest",
+    "projectDescription": "testing the sigma ide",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1552586168392
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sigmatest",
+      "url": "https://github.com/wmw1490/sigmatest"
+    }
+  }
+}
